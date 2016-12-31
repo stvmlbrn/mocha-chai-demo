@@ -1,0 +1,30 @@
+{
+  "name": "mocha-chai-demo",
+  "version": "1.0.0",
+  "description": "Working through some mocha/chai demos",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stvmlbrn/mocha-chai-demo.git"
+  },
+  "author": "Steve Milburn <scmilburn@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stvmlbrn/mocha-chai-demo/issues"
+  },
+  "homepage": "https://github.com/stvmlbrn/mocha-chai-demo#readme",
+  "devDependencies": {
+    "blanket": "^1.2.3",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "config": {
+    "blanket": {
+      "pattern": ["index.js"],
+      "data-cover-never": ["node_modules"]
+    }
+  }
+}
